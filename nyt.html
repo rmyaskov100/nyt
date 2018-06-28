@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>New York Times Search</title>
+  <!-- Add Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+  <!--Add font-awesome for gyphons-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Style to fix the issue of text extending past panel length -->
+  <style>
+    .panel-body a {
+      word-break: break-all;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <div class="container">
+
+    <!-- Jumbotron for Title -->
+    <div class="jumbotron" style="background-color: #20315A ; color: white;">
+      <h1 class="text-center"><strong><i class="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
+    </div>
+
+    <!-- Row to search nyt -->
+    <div class="row">
+      <div class="col-sm-12">
+        <br>
+
+        <!-- First panel is for handling the search parameters -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong><i class="fa  fa-list-alt"></i>   Search Parameters</strong></h3>
+          </div>
+          <div class="panel-body"></div>
+          <form role="form">
+
+            
+        <!--create box for capturing the search term-->
+            <div class="form-group">
+              <label for="search">Search Term:</label>
+              <input type="text" class="form-control" id="search-term">
+            </div>
